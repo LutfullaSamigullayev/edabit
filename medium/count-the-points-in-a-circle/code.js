@@ -8,10 +8,4 @@ function pointsInCircle(points, centerX, centerY, radius) {
   return res
 }
 
-console.log(pointsInCircle([
-  { x: 0, y: 0 },
-  { x: 1, y: 1 },
-  { x: 0, y: 5 },
-  { x: 10, y: 10 }
-], 0, 0, 5))
 module.exports = pointsInCircle;
