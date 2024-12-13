@@ -13,5 +13,6 @@ describe('Tests', () => {
         expect(deleteOccurrences([20, 37, 20, 21], 1)).toEqual([20, 37, 21]);
         expect(deleteOccurrences([1, 1, 3, 3, 7, 2, 2, 2, 2], 3)).toEqual([1, 1, 3, 3, 7, 2, 2, 2]);
         expect(deleteOccurrences([1, 2, 3, 1, 1, 2, 1, 2, 3, 3, 2, 4, 5, 3, 1], 3)).toEqual([1, 2, 3, 1, 1, 2, 2, 3, 3, 4, 5]);
+        expect(deleteOccurrences([13, true, 13, null, 113, true, null, false, false,  'fsdf', 'sfsdf', 'qqq', 'qqq', 'www', 'www', 'www', 'www', 13, 14, 14, 14, 14, 5], 2)).toEqual([13, true, 13, null, 113, true, null, false, false, 'fsdf', 'sfsdf', 'qqq', 'qqq', 'www', 'www', 14, 14, 5]);
     });
 });

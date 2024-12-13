@@ -1,7 +1,7 @@
 Create a function that takes the month and year (as integers) and returns the number of days in that month.
 
+### Examples
 
-### Examples ###
     days(2, 2018) ➞ 28
 
     days(3, 2011) ➞ 31
@@ -14,6 +14,6 @@ Create a function that takes the month and year (as integers) and returns the nu
 
     days(2, 1000) ➞ 29
 
+### Notes
 
-### Notes ###
 N/A
