@@ -4,18 +4,18 @@ The leaderboard takes into consideration the score of each user of course, but a
 
 Once you know the `trueScore`of each user, sort the array according to it in **descending order**.
 
+### Examples
 
-### Examples ###
     leaderboards([
       { name: "a", score: 100, reputation: 20 },
       { name: "b", score: 90, reputation: 40 },
-      { name: "c", score: 110, reputation: 30 },
+      { name: "c", score: 115, reputation: 30 },
     ]) ➞ [
       { name: "c", score: 115, reputation: 30 }, // trueScore = 175
       { name: "b", score: 90, reputation: 40 },  // trueScore = 170
       { name: "a", score: 100, reputation: 20 }  // trueScore = 140
     ]
 
+### Notes
 
-### Notes ###
 N/A
