@@ -7,7 +7,7 @@ describe('Tests', () => {
         expect(dataType('This is an example string...')).toEqual('string');
         expect(dataType(2017)).toEqual('number');
         expect(dataType(true)).toEqual('boolean');
-        expect(dataType(undefined)).toEqual('null');
+        expect(dataType(null)).toEqual('null');
         expect(dataType(undefined)).toEqual('undefined');
         expect(dataType(new Date())).toEqual('date');
     });
