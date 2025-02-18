@@ -4,7 +4,7 @@ Write a function that retrieves all words that begin with a vowel.
 ### Examples ###
     retrieve("A simple life is a happy life for me.") ➞ ["a", "is", "a"]
 
-    retrieve("Exercising is a healthy way to burn off energy."
+    retrieve("Exercising is a healthy way to burn off energy.")
     ➞ ["exercising", "is", "a", "off", "energy"]
 
     retrieve("The poor ostrich was ostracized.")
